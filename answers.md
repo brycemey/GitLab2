@@ -42,6 +42,7 @@ git checkout test
 git merge top_N
 ```
 
+
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
 ```
