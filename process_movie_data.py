@@ -4,10 +4,10 @@ import csv
 
 
 def find_top_10(filename):
-    """Finds the top 5 highest grossing movies in a CSV dataset.
+    """Finds the top 10 highest grossing movies in a CSV dataset.
        Input: filename, a string - points to filename of dataset
        Output: None
-       Effect: should print five lines of text
+       Effect: should print ten lines of text
     """
     # read in file contents as list of dictionaries
     with open(filename) as f:
