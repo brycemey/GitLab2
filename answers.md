@@ -41,6 +41,7 @@ What branches would change, and how?
 git checkout test
 git merge top_N
 ```
+I guess that the top_N would be the python code existing and overwrite test
 
 
 6. What do you think would happen if you ran the following commands?
@@ -49,6 +50,7 @@ What branches would change, and how?
 git checkout top_ten
 git merge test
 ```
+I guess that test would overwrite top_ten
 
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -57,3 +59,4 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+I guess that the top ten would overwrite and delete and that top N would do the same after.
